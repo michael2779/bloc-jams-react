@@ -13,6 +13,10 @@ class App extends Component {
         <header>
           <h1>Bloc James</h1>
         </header>
+        <nav>
+          <Link to='/'>Landing</Link>
+          <Link to='/library'>Library</Link>
+        </nav>
         <main>
           <Route exact path="/" component={Landing} />
           <Route path="/library" component={Library} />
